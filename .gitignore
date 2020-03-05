@@ -1,0 +1,13 @@
+*.log*
+.cache
+.DS_Store
+.idea
+.vscode
+.prettierrc.json
+
+# npm
+node_modules
+package-lock.json
+
+# dist file
+lib
