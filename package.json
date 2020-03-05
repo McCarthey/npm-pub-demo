@@ -1,11 +1,10 @@
 {
   "name": "pandora-test",
-  "version": "0.0.7",
+  "version": "0.0.11",
   "description": "test npm",
-  "main": "main.js",
+  "main": "lib/index.js",
   "files": [
-    "lib",
-    "./main.js"
+    "lib"
   ],
   "scripts": {
     "build": "webpack --config webpack.config.js",
@@ -16,6 +15,9 @@
     "type": "git"
   },
   "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "babel-loader": "^8.0.6",
     "webpack-cli": "^4.0.0-beta.2"
   },
   "author": "weak",
