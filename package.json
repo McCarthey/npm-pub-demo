@@ -1,6 +1,6 @@
 {
   "name": "pandora-test",
-  "version": "0.0.11",
+  "version": "0.0.13",
   "description": "test npm",
   "main": "lib/index.js",
   "files": [

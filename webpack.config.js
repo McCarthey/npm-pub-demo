@@ -3,8 +3,8 @@ const path = require('path')
 const TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
-    // mode: 'production',
-    mode: 'development',
+    mode: 'production',
+    // mode: 'development',
     entry: {
         bundle: './index.js'
     },
@@ -16,10 +16,6 @@ module.exports = {
     resolve: {
         extensions: ['.js']  //用于配置程序可以自行补全哪些文件后缀
     },
-    // optimization: {
-    //     minimize: true,
-    //     minimizer: [new TerserPlugin()],
-    // },
     module: {
         rules: [
             {

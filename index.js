@@ -1,3 +1,7 @@
 import print from './print'
 
-export { print } 
+const greet = (name) => {
+    print(`Hi ${name}`)
+}
+
+export { greet } 
